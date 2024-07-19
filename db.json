@@ -1,9 +1,45 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "learners": [
+    {
+      "fullName": "Jane Smith",
+      "dob": "2006-04-22",
+      "gender": "Female",
+      "disability": "Yes",
+      "class": "grade 2",
+      "id": "e467"
+    },
+    {
+      "id": "5985",
+      "fullName": "candy wawuda",
+      "dob": "2003-10-28",
+      "gender": "Female",
+      "disability": "No",
+      "class": "class 1"
+    },
+    {
+      "id": "87f5",
+      "fullName": "mzungu",
+      "dob": "2003-02-28",
+      "gender": "Female",
+      "disability": "No",
+      "class": "grade 8"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "teachers": [
+    {
+      "name": "Mr. Alan Brown",
+      "email": "alan.brown@example.com",
+      "id": "7ba6"
+    },
+    {
+      "name": "Ms. Clara Johnson",
+      "email": "clara.johnson@example.com",
+      "id": "aa67"
+    },
+    {
+      "id": "ce0c",
+      "name": "candy wawuda",
+      "email": "candy@school.com"
+    }
+  ]
 }
